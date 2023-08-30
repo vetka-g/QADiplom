@@ -71,4 +71,4 @@ public class CreditPage {
         wrongFormatError.shouldHave(size(4));
         requiredFieldMessage.shouldBe(visible, Duration.ofSeconds(15));
     }
-    }
+}

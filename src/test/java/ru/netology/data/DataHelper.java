@@ -57,7 +57,7 @@ public class DataHelper {
         String month = getShiftedMonth();
         String year = getShiftedYear(1);
         String cvc = faker.number().digits(3);
-        return new CardInfo("00000000000000", month, year, owner, cvc);
+        return new CardInfo("0000000000000000", month, year, owner, cvc);
     }
 
     public static CardInfo getInvalidNumberCard() {
