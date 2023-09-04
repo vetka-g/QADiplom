@@ -50,23 +50,23 @@ public class PurchasePage {
     }
 
     public void waitNotificationWrongFormat() {
-        wrongFormatMessage.shouldBe(visible, Duration.ofSeconds(15));
+        wrongFormatMessage.shouldBe(visible);
     }
 
     public void waitNotificationInvalidCardExpirationDate() {
-        invalidCardExpirationDate.shouldBe(visible, Duration.ofSeconds(15));
+        invalidCardExpirationDate.shouldBe(visible);
     }
 
     public void waitNotificationCardExpired() {
-        cardExpiredMessage.shouldBe(visible, Duration.ofSeconds(15));
+        cardExpiredMessage.shouldBe(visible);
     }
 
     public void waitNotificationRequiredField() {
-        requiredFieldMessage.shouldBe(visible, Duration.ofSeconds(15));
+        requiredFieldMessage.shouldBe(visible);
     }
 
     public void waitNotificationWrongFormatError() {
         wrongFormatError.shouldHave(size(4));
-        requiredFieldMessage.shouldBe(visible, Duration.ofSeconds(15));
+        requiredFieldMessage.shouldBe(visible);
     }
 }

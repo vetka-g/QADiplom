@@ -1,9 +1,11 @@
 package ru.netology.page;
 
 import com.codeborne.selenide.SelenideElement;
+
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Condition.visible;
+
 public class MainPage {
     private SelenideElement heading = $(byText("Путешествие дня"));
     private SelenideElement buyButton = $(byText("Купить"));

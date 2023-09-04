@@ -16,7 +16,7 @@ public class DataHelper {
     }
 
     public static String getShiftedYear(int yearCount) {
-        return LocalDate.now().plusYears(yearCount).format(DateTimeFormatter.ofPattern("YY"));
+        return LocalDate.now().plusYears(yearCount).format(DateTimeFormatter.ofPattern("yy"));
     }
 
     public static CardInfo getApprovedCard() {

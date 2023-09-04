@@ -15,7 +15,8 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PurchasePageServiceTest {
-    MainPage mainPage = open("http://localhost:8080/", MainPage.class);
+    private static String host = System.getProperty("db.host");
+    MainPage mainPage = open(host, MainPage.class);
 
     @BeforeAll
     static void setUpAll() {
