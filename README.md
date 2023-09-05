@@ -18,5 +18,5 @@
 
 ### Документы
 * [План автоматизации](https://github.com/vetka-g/QADiplom/blob/main/docs/Plan.md)
-* Отчет по итогам тестирования (TBD)
-* Отчет по итогам автоматизации (TBD)
+* [Отчет по итогам тестирования](https://github.com/vetka-g/QADiplom/blob/main/docs/Report.md)
+* [Отчет по итогам автоматизации](https://github.com/vetka-g/QADiplom/blob/main/docs/Summary.md)
